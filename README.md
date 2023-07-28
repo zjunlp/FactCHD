@@ -10,14 +10,14 @@ Large Language Models (LLMs) like ChatGPT/GPT-4 have gained attention for their 
 ## Illustration of LLMs as Factuality Evaluators
 Inspired by the saying ``to know it and to know the reason why of it`` by ``Zhuzi``, `FactLLM` incorporates fact-based chains of evidence to provide  explanations for its binary predictions.  Based on `FactLLM`, we aim to explore the application  of \emph{Tuning LLMs as factuality evaluator} for the `"Query-Respons"` contexts. Our experiments reveal that while in-context learning and retrieval techniques aid in factuality evaluation, current LLMs still have limitations in accurately detecting factual errors. 
 
-<div align=center><img src="figs/intro.png" width="90%" height="90%" /></div>
+<div align=center><img src="figs/intro.png" width="70%" height="70%" /></div>
 
 
 ## FACTLLM Benchmark Construction
 
 Our benchmark `FactLLM` comprises a comprehensive dataset, consisting of ``51,383`` ``factual``/``non-factual`` samples for training and  additional ``6,960`` samples for LLM analysis and evaluation. It covers a wide range of domains, including health, medicine, climate, science, and more. `FactLLM` endeavors to explore the factuality aspect of LLMs by examining four distinct patterns that encompass individual facts and interactions between multiple facts. 
 Our automated data construction strategy  centers around harnessing a wealth of extensive knowledge (KG), including the data collection process,  generation of `"Query-Respons"` contexts, fact-based chains of evidence and  human filtering and statistical analysis.
-<div align=center><img src="figs/construct.png" width="90%" height="90%" /></div>
+<div align=center><img src="figs/construct.png" width="95%" height="95%" /></div>
 
 
 # 📕 Requirements
@@ -42,7 +42,7 @@ Here are the baselines models in our evaluation:
 
 ## Statistical Analysis of the Benchmark
 We provide the  visual representation of the dataset’s domain distribution as following figures.
-<div align=center><img src="figs/distribution.png" width="80%" height="80%" /></div>
+<div align=center><img src="figs/distribution.png" width="70%" height="70%" /></div>
 
 ## Data format
 we randomly provide several case examples of our FactLLM in the folder ```/data```.
