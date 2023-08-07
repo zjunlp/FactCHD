@@ -53,7 +53,7 @@ instruction: instruction for the model indicating a fallacy finder task.
 input: includes #Question# and #Answer#.
 output: includes labels(NON-FACTUAL or FACTUAL) and justification.
 ```
-The whole dataset is available in Google Drive as [FactLLM](https://drive.google.com/drive/folders/1x6azKA6YqRcUT60utkE630iINHauT1Yg?usp=drive_link) 
+The whole dataset is available in [FactLLM](https://drive.google.com/drive/folders/1x6azKA6YqRcUT60utkE630iINHauT1Yg?usp=drive_link) on Google Drive.
 
 ##  Input for Tuning
 ```json
