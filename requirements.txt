@@ -7,3 +7,10 @@ gradio
 datasets
 sentencepiece
 fire
+KoPL
+tqdm
+loguru
+wikipedia-api
+pandas
+wikipedia
+openai

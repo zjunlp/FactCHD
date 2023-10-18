@@ -21,7 +21,7 @@ from utils.prompter import Prompter
 from utils import MODEL_DICT
 
 
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["WANDB_DISABLED"] = "true"
 
 logger = logging.getLogger("__main__")
