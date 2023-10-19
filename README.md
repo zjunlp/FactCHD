@@ -53,7 +53,7 @@ We provide the  visual representation of the dataset’s domain distribution as 
 we randomly provide several case examples of our FactLLM in the folder ```/data```.
 
 ```json 
-id: unique idetifier ID.
+id: unique identifier ID.
 instruction: instruction for the model indicating a fallacy finder task.
 input: includes #Question# and #Answer#.
 output: includes labels(NON-FACTUAL or FACTUAL) and justification.
