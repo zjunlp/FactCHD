@@ -1,8 +1,8 @@
-# Unveiling the Siren’s Song: Towards Reliable Fact-Conflicting Hallucination Detection
+# FactCHD: Benchmarking Fact-Conflicting Hallucination Detection
 
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)![](https://img.shields.io/badge/version-1.0.1-blue) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zjunlp/MolGen/blob/main/LICENSE)
 
-🔥  Code for the paper "[Unveiling the Siren’s Song: Towards Reliable Fact-Conflicting Hallucination Detection](https://arxiv.org/abs/2310.12086)".
+🔥  Code for the paper "[FactCHD: Benchmarking Fact-Conflicting Hallucination Detection](https://arxiv.org/abs/2310.12086)".
 
 # 🚀 Overview
 Large Language Models (LLMs), such as ChatGPT/GPT-4, have garnered widespread attention owing to their myriad of practical applications, yet their adoption has been constrained by issues of fact-conflicting hallucinations across web platforms. The assessment of factuality in text, produced by LLMs, remains inadequately explored, extending not only to the judgment of vanilla facts but also encompassing the evaluation of factual errors emerging in complex inferential tasks like multi-hop, and etc. In response, we introduce FACTCHD, a fact-conflicting hallucination detection benchmark meticulously designed for LLMs. Functioning as a pivotal tool in evaluating factuality within `"Query-Respons"`  contexts, our benchmark assimilates a large-scale dataset, encapsulating a broad spectrum of factuality patterns, such as vanilla, multi-hops, comparison, and set-operation patterns. A distinctive feature of our benchmark
