@@ -80,13 +80,17 @@ def get_score(metrics_dict, subgraph_type, path4):
     return table   
 
     
+#The input test file:
+#{"id": "public health_9444", "instruction": "I want you to act as a 'fallacy finder'. You will be on the lookout for invalid arguments so you can call out any logical errors or inconsistencies that may be present in the #Question# and the #Answer#. Your job is to provide evidence-based feedback and point out any fallacies, faulty reasoning, false assumptions, or incorrect conclusions which may be present in the #Question# and the #Answer#. Begin your response with either FACTUAL or NON-FACTUAL, followed by your justification.", 
+#"input": "#Question#: Could you provide more information about the results of the first test of anti-epilepsy surgeries in children?\n#Answer#: First test of anti-epilepsy surgeries in children shows dramatic benefit", 
+#"output": "FACTUAL.The statement that the first test of anti-epilepsy surgeries in children shows dramatic benefit is supported by the evidence provided. The article describes a randomized trial of neurosurgical procedures designed to eliminate seizures in children under 18 years of age whose epilepsy is resistant to drug therapy. The article also notes significant side effects attributable to the surgeries and the struggle to receive insurance coverage. However, the evidence supports the conclusion that the surgeries have shown to improve quality of life and maintain cognitive health, particularly in young children for whom brain plasticity is stronger than in adults."}
 
 
 if __name__ == "__main__":
     READ_ONLY = False
-    path1 = "./data/all_test.json"
+    path1 = "./data/all_test.json" # the original test file
     base_path2 = "../lora/results/llama2_7b_4shotdemo_realtrain.json"
-    path3 = "./data/test.json"
+    path3 = "./data/test.json" # the input test file
     base_path4 = "./scores_log"
     
     if os.path.isdir(base_path2):
