@@ -2,7 +2,7 @@
 
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)![](https://img.shields.io/badge/version-1.0.1-blue) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zjunlp/MolGen/blob/main/LICENSE)
 
-🔥  Code for the paper "[FactCHD: Benchmarking Fact-Conflicting Hallucination Detection](https://arxiv.org/abs/2310.12086)".
+🔥  Code for the IJCAI 2024 paper "[FactCHD: Benchmarking Fact-Conflicting Hallucination Detection](https://arxiv.org/abs/2310.12086)".
 🔥  The whole dataset is available in [FactCHD_Dataset](https://drive.google.com/file/d/1dvc_PzTOfVAcdpfrGGbedaha_CSJ9p0w/view?usp=sharing) on Google Drive or [FactCHD_Dataset](https://huggingface.co/datasets/zjunlp/FactCHD) on Huggingface. 
 
 
